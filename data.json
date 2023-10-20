@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Занятие по батскетболу",
+        "date": "20 сентября",
+        "clock": "18:00",
+        "maxPeople": 10,
+        "currentPeople": 7  
+    },
+    {
+        "id": 2,
+        "title": "Занятие по футболу",
+        "date": "21 сентября",
+        "clock": "19:00",
+        "maxPeople": 11,
+        "currentPeople": 8
+    },
+    {
+        "id": 3,
+        "title": "Занятие по волейболу",
+        "date": "19 сентября",
+        "clock": "17:30",
+        "maxPeople": 10,
+        "currentPeople": 6
+    }
+]
