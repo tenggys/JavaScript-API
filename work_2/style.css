@@ -1,0 +1,63 @@
+body {
+    background: url('./img/promo.jpg') no-repeat center;
+    max-height: 100vh;
+    background-size: cover;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.slider-img {
+  display: none;
+}
+
+.active {
+    display: block;
+}
+
+img {
+    width: 500px;
+    height: 550px;
+}
+
+.points { 
+    position: absolute; 
+    top: 500px;
+}
+
+.points-item {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.points-item:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: red;
+    opacity: 1;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-slide {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.btn-slide:hover {
+    background-color: green;
+    transition: 1s;
+}
