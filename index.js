@@ -66,7 +66,7 @@ async function fetchData() {
             if (countPeople.innerHTML === maxPeople.innerHTML) {
                 button.setAttribute('disabled', true);
             } else {
-                button.removeAttributeNode('disabled');
+                button.removeAttribute('disabled');
             }
 
             
